@@ -509,6 +509,7 @@ main{
 .subtitle {
     font-size: var(--subtitle-fs);
     text-align: center;
+    font-family: var(--primary-font);
     margin-bottom: 4px;
 }
 .section-title {
@@ -667,12 +668,13 @@ main{
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
     font-size: var(--title-fs);
     text-align: center;
 }
 .banner-name .groom_name, .banner-name .bride_name {
-   font-size: var(--title-fs);
+    font-size: var(--title-fs);
+     font-family: var(--script-font);
 }
 .banner_top {
     width: 100%;
@@ -764,7 +766,7 @@ main{
 }
 .about-body h3 {
     font-size: var(--title-fs);
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
 }
 
 
@@ -781,7 +783,7 @@ main{
 .time-line-section .section-title {
     color: var(--text-white);
     font-size: var(--biger-size);
-    font-family: var(--script-font);
+    font-family: var(--primary-font);
 }
 .story_bg {
     position: absolute;
@@ -1072,7 +1074,7 @@ main{
 }
 .card-title {
     font-size: var(--title-fs);
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
 }
 
 .invitation-body {
